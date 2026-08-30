@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah PS</title>
+</head>
+<body>
+    <header>
+        <h1>Sistem Informasi Rental PS</h1>
+        <p>Tambah Data Playstasion</p>
+    </header>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="list.html">Data PS</a>
+        <a href="tambah.html">Tambah PS</a>
+        <a href="../pelanggan/list.html">Data Pelanggan</a>
+        <a href="../pelanggan/tambah.html">Tambah Pelanggan</a>
+    </nav>
+<main>
+    <section>
+        <article>
+            <h2> Formulir Tambah Unit PS</h2>
+            <form action="#" method="POST">
+<p>
+    <label for="kode_ps">Kode PS:</label><br>
+    <input type="text" id="kode_ps" name="kode_ps" placeholder="Contoh: PS006" required>
+</p>
+<p>
+    <label for="nama_unit">Nama Unit</label><br>
+    <input type="text" id="nama_unit" name="nama_unit" placeholder="Contoh: Playstasion 5 Pro" required>
+</p>
+<p>
+    <label for="katagori">Kategori:</label><br>
+    <select id="kategori" name="kategori" required>
+        <option value="">-- Pilih Kategori --</option>
+        <option value="Console Regular">Console Regular</option>
+        <option value="Console Next-Gen">Console Next-Gen</option>
+        <option value="VR Package">Vr Package</option>
+        <option value="VIP Room">VIP Room</option>
+</select>
+</p>
+<p>
+    <label for="tarif">Tarif / Jam (RP):</label><br>
+    <input type="number" id="tarif" name="tarif" placeholder="Contoh: 10000" min="1000" step="500" required>
+</p>
+<p>
+    <label>Status Unit:</label><br>
+    <input type="radio" id="tersedia" name="status" value="Tersedia"
+    <label for="tersedia">Tersedia</label><br>
+
+    <input type="radio" id="disewa" name="status" value="Disewa">
+    <label for="disewa">Disewa</label><br>
+
+    <input type="radio" id="maintenance" name="status" value="Maintenance">
+    <label for="maintenance">Maintenance</label>
+</p>
+<p>
+    <button type="submit">Simpan Data</button>
+    <button type="reset">Batal</button>
+</p>
+            </form>
+        </article>
+    </section>
+</main>
+    <footer>
+        <p>&copy; 2026 Sistem Informasi Rental PS</p>
+    </footer>
+</body>
+</html>
