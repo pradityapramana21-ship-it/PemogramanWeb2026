@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah PS</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistem Informasi Rental PS</h1>
+        <p>Tambah Data Playstasion</p>
+    </header>
+    <nav>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        ☰
+    </label>
+    <div class="menu">
+        <a href="../index.html">Beranda</a>
+        <a href="list.html">Data PS</a>
+        <a href="tambah.html">Tambah PS</a>
+        <a href="../pelanggan/list.html">Data Pelanggan</a>
+        <a href="../pelanggan/tambah.html">Tambah Pelanggan</a>
+    </div>
+    </nav>
+<main>
+    <section>
+        <article>
+            <h2> Formulir Tambah Unit PS</h2>
+            <form action="#" method="POST">
+<div class="form-group">
+        <label for="kode_ps">Kode PS:</label>
+        <input type="text" id="kode_ps" name="kode_ps" class="form-control" placeholder="Contoh: PS006" required>
+    </div>
+<div class="form-group">
+        <label for="nama_unit">Nama Unit:</label>
+        <input type="text" id="nama_unit" name="nama_unit" class="form-control" placeholder="Contoh: Playstasion 5 Pro" required>
+    </div>
+<div class="form-group">
+        <label for="kategori">Kategori:</label>
+        <select id="kategori" name="kategori" class="form-control" required>
+            <option value="">-- Pilih Kategori --</option>
+            <option value="Console Regular">Console Regular</option>
+            <option value="Console Next-Gen">Console Next-Gen</option>
+            <option value="VR Package">VR Package</option>
+            <option value="VIP Room">VIP Room</option>
+        </select>
+    </div>
+<div class="form-group">
+        <label for="tarif">Tarif / Jam (RP):</label>
+        <input type="number" id="tarif" name="tarif" class="form-control" placeholder="Contoh: 10000" min="1000" step="500" required>
+    </div>
+<div class="form-group">
+        <label>Status Unit:</label><br>
+        <input type="radio" id="tersedia" name="status" value="Tersedia">
+        <label for="tersedia" style="display:inline; font-weight:normal;">Tersedia</label> &nbsp;
+
+        <input type="radio" id="disewa" name="status" value="Disewa">
+        <label for="disewa" style="display:inline; font-weight:normal;">Disewa</label> &nbsp;
+
+        <input type="radio" id="maintenance" name="status" value="Maintenance">
+        <label for="maintenance" style="display:inline; font-weight:normal;">Maintenance</label>
+    </div>
+<div class="form-group">
+        <button type="submit" class="btn btn-primary">Simpan Data</button>
+        <button type="reset" class="btn btn-secondary">Batal</button>
+    </div>
+    </form>
+        </article>
+    </section>
+</main>
+    <footer>
+        <p>&copy; 2026 Sistem Informasi Rental PS</p>
+    </footer>
+</body>
+</html>

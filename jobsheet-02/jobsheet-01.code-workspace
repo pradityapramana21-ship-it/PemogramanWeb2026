@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../jobsheet-01"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jobsheet-02"
+	}
+}
