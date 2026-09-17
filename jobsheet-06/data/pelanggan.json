@@ -1,0 +1,30 @@
+[
+    {
+        "kode_pelanggan": "PL001",
+        "nama_pelanggan": "Rizky Yanuar",
+        "no_whatsapp": "082221657799",
+        "alamat": "Jl. Kenangan Indah No 05",
+        "status_member": "Member VIP"
+    },
+    {
+        "kode_pelanggan": "PL002",
+        "nama_pelanggan": "Najwa Zahran",
+        "no_whatsapp": "085559647711",
+        "alamat": "Jl. Mawar Bunga No 87",
+        "status_member": "Regular"
+    },
+    {
+        "kode_pelanggan": "PL003",
+        "nama_pelanggan": "Budi Santoso",
+        "no_whatsapp": "081234567890",
+        "alamat": "Jl. Melati No 12",
+        "status_member": "Regular"
+    },
+    {
+        "kode_pelanggan": "PL004",
+        "nama_pelanggan": "Dinda Maharani",
+        "no_whatsapp": "081298765432",
+        "alamat": "Jl. Anggrek No 25",
+        "status_member": "Member VIP"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "kode_ps": "PS001",
+        "nama_unit": "PlayStation 3 Slim",
+        "kategori": "Console Regular",
+        "tarif": 5000,
+        "status": "Tersedia"
+    },
+    {
+        "kode_ps": "PS002",
+        "nama_unit": "PlayStation 4 PRO",
+        "kategori": "Console Regular",
+        "tarif": 8000,
+        "status": "Disewa"
+    },
+    {
+        "kode_ps": "PS003",
+        "nama_unit": "PlayStation 5 Disc Edition",
+        "kategori": "Console Next-Gen",
+        "tarif": 15000,
+        "status": "Tersedia"
+    },
+    {
+        "kode_ps": "PS004",
+        "nama_unit": "PlayStation VR2 Rig",
+        "kategori": "VR Package",
+        "tarif": 28000,
+        "status": "Tersedia"
+    },
+    {
+        "kode_ps": "PS005",
+        "nama_unit": "PlayStation 5 Pro",
+        "kategori": "VIP ROOM",
+        "tarif": 25000,
+        "status": "Maintenance"
+    },
+    {
+        "kode_ps": "PS006",
+        "nama_unit": "PlayStation 4 Slim",
+        "kategori": "Console Regular",
+        "tarif": 7000,
+        "status": "Tersedia"
+    },
+    {
+        "kode_ps": "PS007",
+        "nama_unit": "PlayStation 5 Digital Edition",
+        "kategori": "Console Next-Gen",
+        "tarif": 14000,
+        "status": "Disewa"
+    },
+    {
+        "kode_ps": "PS008",
+        "nama_unit": "PlayStation VR Package",
+        "kategori": "VR Package",
+        "tarif": 20000,
+        "status": "Tersedia"
+    },
+    {
+        "kode_ps": "PS009",
+        "nama_unit": "PlayStation 5 Pro VIP",
+        "kategori": "VIP ROOM",
+        "tarif": 30000,
+        "status": "Tersedia"
+    },
+    {
+        "kode_ps": "PS010",
+        "nama_unit": "PlayStation 3 Super Slim",
+        "kategori": "Console Regular",
+        "tarif": 5000,
+        "status": "Maintenance"
+    }
+]
